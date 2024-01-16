@@ -1,0 +1,18 @@
+.img-logo {
+    width: 50px;
+    margin-right: 50px;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.info {
+    margin-top: -60px;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-item img {
+        height: 100%;
+    }
+}
