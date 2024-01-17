@@ -16,12 +16,21 @@
     <!-- style -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Library Aos -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+
     <title>Semeru Mountain | Homework HTML & CSS Framework</title>
+
+    <style>
+        body{
+            background-color: #6B6B6B;
+        }
+    </style>
 </head>
 
 <body>
     <!-- navbar -->
-    <nav class="navbar container navbar-expand-lg fixed-top navbar-light bg-light">
+    <nav class="navbar container navbar-expand-lg fixed-top navbar-light bg-light" data-aos="fade-down">
         <a class="navbar-brand" href="#home">
             <img src="assets/logo/logo.png" alt="logo" class="img-logo ml-5">
         </a>
@@ -57,7 +66,7 @@
     <section>
         <div class="container">
             <div class="row py-5 mt-5">
-                <div class="col-lg-8 col-md-6 col-sm-12">
+                <div class="col-lg-8 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="card">
                         <img src="assets/images/semeru1.jpg" class="card-img-top p-2" alt="image">
                         <div class="card-body">
@@ -92,10 +101,10 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="card mb-4">
+                    <div class="card mb-4" data-aos="zoom-in" data-aos-duration="2000">
                         <img src="assets/images/semeru1.jpg" class="card-img-top p-2" alt="image">
                     </div>
-                    <div class="card mb-4">
+                    <div class="card mb-4" data-aos="zoom-in" data-aos-duration="3000">
                         <img src="assets/images/semeru2.jpg" class="card-img-top p-2" alt="image">
                     </div>
                 </div>
@@ -115,6 +124,14 @@
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="assets/js/jquery.slim.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Library Aos -->
+    <script src="assets/js/aos.js"></script>
+
+    <!-- inisialisasi aos -->
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
